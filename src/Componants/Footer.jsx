@@ -7,7 +7,7 @@ function Footer({ isLoggedIn }) {
       {isLoggedIn ? (
         <p>© 2025 My App | You're logged in</p>
       ) : (
-        <p>Welcome! Please login</p>
+        <p>Welcome! Please login or signupgi</p>
       )}
     </footer>
   );
