@@ -17,7 +17,7 @@ function Logout({ onLogout }) {
     <div>
       <h1>Thank you</h1>
       <button className="login" onClick={goToLogin}>
-        Login Again
+        Login Again or signup
       </button>
     </div>
   );
