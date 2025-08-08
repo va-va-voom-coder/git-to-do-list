@@ -1,0 +1,98 @@
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-label-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-label-group label {
+  width: 30%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input-label-group input,
+.input-label-group .react-datepicker-wrapper {
+  width: 65%;
+}
+
+.input-label-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 5px;
+  margin-left: 30%;
+}
+
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.password-wrapper input {
+  width: 65%;
+  padding: 8px 35px 8px 8px; /* leave space for eye */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  transform: translateY(0%);
+  top: 8px;
+  cursor: pointer;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+button.login {
+  background-color: var(--button-blue);
+}
+
+button.already {
+  background-color: var(--button-green);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.center-box h1 {
+  text-align: center;
+}
+
+.password-criteria {
+  font-size: 0.7rem;
+    display: flex;
+  gap: 5px;
+  flex-wrap: wrap
+}
+.password-criteria div {
+  font-size: 0.7rem;
+    display: flex;
+  margin-bottom: 2px;
+}

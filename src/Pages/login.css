@@ -1,0 +1,54 @@
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+button.login,
+button.signup {
+  background-color: var(--button-blue);}
+
+button.already {
+  background-color: var(--button-green);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  width: 30%;
+  font-weight: bold;
+}
+
+.form-row input {
+  width: 65%;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+  display: block;
+}

@@ -1,0 +1,7 @@
+body {
+  background-color: var(--bg-color);
+}
+
+.page-box {
+  background-color: var(--box-color);
+}
