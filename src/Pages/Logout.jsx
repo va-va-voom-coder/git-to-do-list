@@ -15,7 +15,7 @@ function Logout({ onLogout }) {
 
   return (
     <div>
-      <h1>Thank you signin Again</h1>
+      <h1>Thank you signin or Login Again </h1>
       <button className="login" onClick={goToLogin}>
         Login Again or signup
       </button>
