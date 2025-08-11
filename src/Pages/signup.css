@@ -92,7 +92,5 @@ button:hover {
   flex-wrap: wrap
 }
 .password-criteria div {
-  font-size: 0.7rem;
-    display: flex;
   margin-bottom: 2px;
 }
